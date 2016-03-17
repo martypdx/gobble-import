@@ -1,0 +1,39 @@
+{
+  "author": {
+    "email": "marty@martypdx.com",
+    "name": "Marty Nelson",
+    "url": "@martypdx"
+  },
+  "bugs": {
+    "url": "https://github.com/martypdx/gobble-import/issues"
+  },
+  "dependencies": {
+    "camel-case": "^1.2.0"
+  },
+  "description": "Create a file that imports the supplied file and optionally assign it or add to javascript snippet.",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "homepage": "https://github.com/martypdx/gobble-import#readme",
+  "installable": true,
+  "keywords": [
+    "directory",
+    "files",
+    "gobble",
+    "import"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "gobble-import",
+  "optionalDependencies": {},
+  "readme": "# gobble-import\n\nDescription\n\n## Installation\n\nFirst, you need to have gobble installed - see the [gobble readme](https://github.com/gobblejs/gobble) for details. Then,\n\n```bash\nnpm i -D gobble-import\n```\n\n## Usage\n\n**gobblefile.js**\n\n```js\nvar gobble = require( 'gobble' );\nmodule.exports = gobble( 'folder' ).transform( 'import' );\n```\n\n\n## Tests\n\nUses [gobble-test](https://github.com/gobblejs/gobble-test) example based testing. Run via:\n\n```bash\nnpm test\n```\n\n## Credits\n\n\n## License\n\nMIT. Copyright 2015 Marty Nelson\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martypdx/gobble-import.git"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "version": "1.0.0"
+}
